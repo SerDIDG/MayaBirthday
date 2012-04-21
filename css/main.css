@@ -1,0 +1,87 @@
+/* ******* TAGS ******* */
+
+@font-face {
+	font-family: Mistral;
+	src:local("Mistral"),
+		url(../font/MISTRAL.TTF);
+}
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	min-width: 400px;
+	min-height: 400px;
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	position: relative;
+	overflow: hidden;
+}
+
+.circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+}
+.circle .inner {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.circle .inner .block {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.lines {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+}
+.lines .inner {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.lines .inner .block {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.bubble {
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.letters {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	z-index: 1;
+}
+.letters span {
+	color: #fff;
+	font-size: 70px;
+	line-height: 54px;
+	font-family: Mistral, "Comic Sans MS", cursive;
+}
+
+.all-fake {
+	width: 590px;
+	height: 590px;
+	background: url(../img/card.png);
+	margin: -295px 0 0 -295px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+}
